@@ -49,7 +49,7 @@ gem 'view_component', '~> 2.82'
 gem "anycable-rails", "~> 1.1"
 gem 'colored', '~> 1.2'
 gem 'birdel', '~> 0.3.2'
-gem 'rux', '~> 1.1'
+gem 'rux-rails', '~> 1.2', '>= 1.2.2'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

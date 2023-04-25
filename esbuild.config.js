@@ -33,6 +33,7 @@ let jsOpt = {
   ...opt,
   entryPoints: jsEntrypoints,
   outbase: jsOutbase,
+  minify: true
 }
 if (process.argv.includes('--watch')) {
   esbuild.context(cssOpt)
